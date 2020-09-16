@@ -6,7 +6,7 @@ function checkdata($nome, $email, $age)
         strpos($email, '@') !== false
         && strpos($email, '.') !== false
         && strlen($nome) >= 3
-        && is_numeric($nome) == false
+        && ctype_alpha($nome)
         && is_numeric($age)
     ) {
         echo '<div class="alert alert-success" role="alert">Accesso Garantito</div>';
