@@ -27,7 +27,6 @@ $partite = array(
     ],
 
 );
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -49,7 +48,7 @@ $partite = array(
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6 offset-3">
+            <div class="col-6 offset-3 mt-5">
                 <table class="table table-dark">
                     <thead>
                         <tr>

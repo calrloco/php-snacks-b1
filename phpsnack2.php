@@ -35,7 +35,7 @@ function checkdata($nome, $email, $age)
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 offset-4">
+            <div class="col-4 offset-4 mt-5">
                 <form method="GET">
                     <div class="form-group">
                         <label for="exampleInputPassword1">Nome</label>
