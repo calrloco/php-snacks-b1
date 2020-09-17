@@ -60,6 +60,7 @@ $partite = array(
                         </tr>
                         <?php } ?>
                     </tbody>
+                </table>
             </div>
         </div>
     </div>
